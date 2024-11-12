@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<style>
+    /* Estilo para los títulos de secciones */
+.text-gold {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+/* Estilo para las tarjetas de contacto */
+.contact-card {
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+}
+
+/* Estilo para las listas de redes sociales */
+.list-unstyled li {
+    color: #ddd;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.list-unstyled li a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+    text-decoration: underline;
+}
+
+</style>
+<body>
+    <?php include("../components/menu/menu.html");?>
+    <div class="container my-5">
+        <h1 class="text-gold mb-4">Contáctanos</h1>
+        
+        <div class="contact-card bg-dark text-light mb-4 p-4">
+            <h2 class="text-gold">Dirección</h2>
+            <p>Cl. 53 #10 19, Soacha, Cundinamarca</p>
+        </div>
+        
+        <div class="contact-card bg-dark text-light mb-4 p-4">
+            <h2 class="text-gold">Redes Sociales</h2>
+            <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/centroeducativocolombolatino/?locale=es_LA" target="_blank" class="text-gold">Facebook</a></li>
+                <li><a href="https://www.instagram.com/colombo.latino.cecol/?hl=es-la" target="_blank" class="text-gold">Instagram</a></li>
+                <li><a href="https://cecol40.wixsite.com/inicio/contact" target="_blank" class="text-gold">Página de Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
