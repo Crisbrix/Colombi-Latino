@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    width: 100% !important  ;
+    height: 100px;
+}
+
+/* Estilos del botón de enviar */
+.btn-salir {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-salir:hover {
+    background-color: #ffd700;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
